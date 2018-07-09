@@ -1,0 +1,84 @@
+
+@media(min-width: 425px){
+    .imagen1{
+    position: relative;
+    width: 300px;
+    top:-5%;
+
+}
+.imagen2{
+    display: block;
+    top: 85%;
+    left: 35%;
+}
+    .pizza1{
+        margin: 10% 10% 0% 10%;    
+        width: 150px;
+        height: 150px;
+    }
+    .pizza2{
+        margin: 10% 10% 0% 10%;
+        width: 150px;
+        height: 150px;
+    }
+    .pizza3{
+        margin: 10% 10% 0% 10%;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 768px){
+.imagen1{
+    position: absolute;
+    top:-5%;
+    width: 600px;
+
+}
+.imagen2{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+    .pizza1{
+        margin: 10% 10% 0% 10%;    
+        width: 150px;
+        height: 150px;
+    }
+    .pizza2{
+        margin: 10% 10% 0% 10%;
+        width: 150px%;
+        height: 150px;
+    }
+    .pizza3{
+        margin: 10% 10% 0% 10%;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 1024px){
+.imagen1{
+    position: absolute;
+    left: 40%;
+
+}
+.imagen2{
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+    .pizza1{
+        margin: 10% 10% 0% 10%;    
+        width: 150px;
+        height: 150px;
+    }
+    .pizza2{
+        margin: 10% 10% 0% 10%;
+        width: 150px;
+        height: 150px;
+    }
+    .pizza3{
+        margin: 10% 10% 0% 10%;
+        width: 150px;
+        height: 150px;
+    }
+}

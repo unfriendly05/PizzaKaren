@@ -1,0 +1,95 @@
+    .portafolio{
+        background-color: white;
+        display: flex;
+        height: 100vh;
+
+        text-align: center;
+        justify-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    .contenedor1{
+        background: #7f1212;
+        border: double 10px;
+        width: 250px;
+        height: 300px;
+        margin: 5%;
+    }
+    .contenedor2{
+        background: #7f1212;
+        border: double 10px;
+        width: 250px;
+        height: 300px;
+        margin: 5%;
+    }
+    .contenedor3{
+        background: #7f1212;
+        border: double 10px;
+        width: 250px;
+        height: 300px;
+        margin: 5%;
+    }
+@media (min-width: 425px){
+    .portafolio{
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 1180px;
+    }
+    .contenedor1{
+        width: 300px;
+    }
+    .contenedor2{
+        width: 300px;
+    }
+    .contenedor3{
+        width: 300px;
+    }
+}
+@media (min-width: 768px){
+       .portafolio{
+        height: 150vh;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .contenedor1{
+        background: #7f1212;
+        border: double 10px;
+        width: 45%;
+        float: left;
+    }
+    .contenedor2{
+        background: #7f1212;
+        border: double 10px;
+        width: 45%;
+        float: left;
+    }
+    .contenedor3{
+        background: #7f1212;
+        border: double 10px;
+        width: 45%;
+    }
+}
+@media (min-width: 1024px){
+    .portafolio{
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        height: 1080px;
+    }
+    .contenedor1{
+        border: double 10px;
+        width: 250px;
+        float: left;
+    }
+    .contenedor2{
+        border: double 10px;
+        width: 250px;
+        float:left;
+    }
+    .contenedor3{
+        border: double 10px;
+        width: 250px;
+        float:left;
+    }
+}
